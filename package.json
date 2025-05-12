@@ -1,0 +1,16 @@
+{
+  "name": "precommit",
+  "version": "1.0.0",
+  "description": "-   In the git repo(where .git is located) install husky -   Husky Installation --> npm i husky, npx husky init. -   In .husky file write cd frontend && npm run precommit -   In Frontend install eslint, @eslint/js, prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^9.1.7"
+  }
+}
