@@ -1,8 +1,16 @@
 const config = {
-  trailingComma: 'es5',
-  tabWidth: 2,
-  semi: false,
-  singleQuote: true,
-}
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "arrowParens": "avoid",
+    "endOfLine": "auto"
+  }
 
-export default config
+  export default config;
